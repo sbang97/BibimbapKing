@@ -1,0 +1,291 @@
+body {
+    font-family: Raleway,"Hevletica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+nav {
+    box-shadow: none;
+}
+nav.nav-extended {
+    height: 90px;
+    width: 50%;
+    margin: auto;
+}
+.page-container{
+    background-color: #f9f9f9;
+}
+form {
+    width: 50%;
+}
+.btn, .btn-large, .btn:focus{
+    background-color: deepskyblue;
+}
+
+.btn:hover, .btn-large:hover {
+    background-color: lightskyblue;
+}
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid lightskyblue;
+    box-shadow: 0 1px 0 0 lightskyblue;
+}
+input:not([type]):focus:not([readonly])+label, input[type=text]:focus:not([readonly])+label, input[type=password]:focus:not([readonly])+label, input[type=email]:focus:not([readonly])+label, input[type=url]:focus:not([readonly])+label, input[type=time]:focus:not([readonly])+label, input[type=date]:focus:not([readonly])+label, input[type=datetime]:focus:not([readonly])+label, input[type=datetime-local]:focus:not([readonly])+label, input[type=tel]:focus:not([readonly])+label, input[type=number]:focus:not([readonly])+label, input[type=search]:focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+    color: lightskyblue;
+}
+input:not([type]).valid, input:not([type]):focus.valid, input[type=text].valid, input[type=text]:focus.valid, input[type=password].valid, input[type=password]:focus.valid, input[type=email].valid, input[type=email]:focus.valid, input[type=url].valid, input[type=url]:focus.valid, input[type=time].valid, input[type=time]:focus.valid, input[type=date].valid, input[type=date]:focus.valid, input[type=datetime].valid, input[type=datetime]:focus.valid, input[type=datetime-local].valid, input[type=datetime-local]:focus.valid, input[type=tel].valid, input[type=tel]:focus.valid, input[type=number].valid, input[type=number]:focus.valid, input[type=search].valid, input[type=search]:focus.valid, textarea.materialize-textarea.valid, textarea.materialize-textarea:focus.valid {
+    border-bottom: 1px solid lightskyblue;
+    border-bottom-color: lightskyblue;
+    box-shadow: 0 1px 0 0 lightskyblue;
+}input:not([type]).invalid, input:not([type]):focus.invalid, input[type=text].invalid, input[type=text]:focus.invalid, input[type=password].invalid, input[type=password]:focus.invalid, input[type=email].invalid, input[type=email]:focus.invalid, input[type=url].invalid, input[type=url]:focus.invalid, input[type=time].invalid, input[type=time]:focus.invalid, input[type=date].invalid, input[type=date]:focus.invalid, input[type=datetime].invalid, input[type=datetime]:focus.invalid, input[type=datetime-local].invalid, input[type=datetime-local]:focus.invalid, input[type=tel].invalid, input[type=tel]:focus.invalid, input[type=number].invalid, input[type=number]:focus.invalid, input[type=search].invalid, input[type=search]:focus.invalid, textarea.materialize-textarea.invalid, textarea.materialize-textarea:focus.invalid {
+    border-bottom: 1px solid lightskyblue;
+    border-bottom-color: lightskyblue;
+    box-shadow: 0 1px 0 0 lightskyblue;
+}
+
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+    border-bottom-color: lightskyblue;
+    border-bottom: 1px solid lightskyblue;
+}
+
+#message-row {
+    width: 50%;
+    margin: auto;
+}
+#nav-bar {
+    left: 0px;
+    margin-top: 85px;
+}
+nav ul a:hover {
+   background-color: #FFF;
+}
+a.active {
+    background-color:red;
+    }
+#nav-menu {
+    padding-top: 10px;
+}
+
+#tab {
+    margin: 0 auto;
+    width: 24.5%;
+    font-weight: 900;
+}
+
+#home:hover {
+   color: red;
+}
+#menu:hover {
+   color: orange;
+}
+#about:hover {
+   color: gold;
+}
+#contact:hover {
+   color: green;
+}
+table {
+    width: 50%;
+    margin: auto;
+}
+
+td {
+    padding: 10px 10px;
+}
+
+.menu-title {
+    margin: 0px;
+    text-align: center;
+}
+
+#fb {
+    color: navy;
+    padding: 5px;
+}
+
+#yelp {
+    color: crimson;
+    padding: 5px;
+}
+
+#logo {
+    height: 75px;
+    width: 175px;
+    margin: 0 auto;
+}
+
+footer h5 {
+    font-weight: 900;
+}
+
+footer.page-footer {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+footer p {
+    margin: 0px;
+}
+.slider .indicators .indicator-item {
+  background-color: #666666;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.slider .indicators .indicator-item.active {
+  background-color: #EEE;
+}
+
+#about-page, #menu-page, #contact-page{
+    margin-top: 10px;
+}
+
+.slider .indicators {
+  bottom: 60px;
+  z-index: 100;
+  size: 5px;
+  /* text-align: left; */
+}
+
+.slider .indicators .indicator-item {
+    height: 12px;
+    width: 12px;
+}
+
+footer h5 {
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+#review-card {
+    height: 350px;
+}
+
+.row {
+    margin-bottom: 0px;
+    padding-bottom: 25px;
+}
+.home-title {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+#card-title {
+    padding-top: 10px;
+}
+
+#stars {
+    border-bottom: #666666 1px;
+    color: red;
+}
+
+.card .card-action {
+    padding: 7px;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+    color: #039be5;
+}
+
+#elite {
+    color: orange;
+    font-size: 14px;
+}
+.yelp-content {
+    margin-top: 5px;
+}
+
+.review.island.island-light {
+    background-color: white;
+    width: 100px;
+}
+
+#card-content {
+    padding: 7px;
+}
+
+@media(max-width: 990px) {
+    footer {
+        text-align: center;
+    }
+}
+@media (max-width: 280px) {
+    #home, #menu, #about, #contact {
+        font-size: 12px;
+    }
+    nav ul a {
+    padding: 0px;
+    }
+}
+
+@media (max-width: 400px) {
+        #fb, #yelp {
+        font-size: 25px;
+    }
+}
+@media (max-width: 430px) {
+    .description{
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    #message-title {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 550px) {
+    nav.nav-extended {
+        width: 100%;
+    }
+    #message-row {
+        width: 100%;
+    }
+    .video {
+        height: 200px;
+        width: 350px;
+    }
+}
+
+@media(max-width: 800px) {
+    footer {
+        text-align: center;
+    }
+    #message-row {
+        width: 75%;
+    }
+    .video {
+        height: 250px;
+        width: 350px;
+    }
+}
+@media (min-width: 285px) {
+    nav ul a {
+        padding: 10px;
+    }
+    #logo {
+        height: 85px;
+        width: 250px;
+    }
+     #home, #menu, #about, #contact {
+        font-size: 10px;
+    }
+}
+@media(min-width: 285px) {
+     #home, #menu, #about, #contact {
+        font-size: 16px;
+    }
+}
+
+
+@media(min-width: 850px) {
+    .video {
+        height: 420px;
+        width: 750px;
+    }
+     #home, #menu, #about, #contact {
+        font-size: 20px;
+    }
+}

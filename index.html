@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Bibimbap King</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="grey-text text-darken-3">
+    <header>
+        <nav class="nav-extended white black-text">
+            <div id="nav-menu" class="nav-wrapper">
+                <div id="img-div">
+                    <img class="brand-logo center" id="logo" src="img/logo.png" alt="logo">
+                </div>
+                <ul id="nav-bar" class="center-align">
+                    <li id="tab" class=""><a class="grey-text text-darken-3" href="index.html"><span id="home">HOME</span></a></li>
+                    <li id="tab" class=""><a class="grey-text text-darken-3" href="menu.html"><span id="menu">MENU</span></a></li>
+                    <li id="tab" class=""><a class="grey-text text-darken-3" href="about.html"><span id="about">ABOUT</span></a></li>
+                    <li id="tab" class=""><a class="grey-text text-darken-3" href="contact.html"><span id="contact">CONTACT</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="home-page">
+            <div class="slider">
+                <ul class="slides">
+                    <li>
+                    <img src="http://www.maangchi.com/wp-content/uploads/2008/01/dolsotbibimbap-stove.jpg"> <!-- random image -->
+                        <div class="caption center-align">
+                            <h3>Korean Food Made the Right Way</h3>
+                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="http://www.kimchiandme.com/wp-content/uploads/2015/03/koreanburrito1.jpg"> <!-- random image -->
+                        <div class="caption left-align">
+                            <h3>Kimchi Burrito</h3>
+                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="http://www.maangchi.com/wp-content/uploads/2015/01/tofu-kimchi.jpg"> <!-- random image -->
+                        <div class="caption right-align">
+                            <h3>Soondooboo</h3>
+                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="http://augustjoystudios.com/wp-content/uploads/2015/01/Easy-Korean-Beef-Bowl.jpg"> <!-- random image -->
+                        <div class="caption center-align">
+                            <h3>Bulgogi Meal</h3>
+                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="description">
+                <h3 class="home-title"><span class="grey-text text-darken-3">Korean Food Made Simple and Delicious</span></h3>
+                <div class="row">
+                    <div class="center-align">
+                        <iframe class="video" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fbibimbapking%2Fvideos%2F1203462159695582%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews">
+                <h3 class="home-title"><span class="grey-text text-darken-3"> <span id="yelp" class="fa fa-yelp fa"></span> Yelp Reviews <span id="yelp" class="fa fa-yelp fa"></span></span></h3>
+                <div class="row">
+                    <div class="col s12 m12 l4">
+                        <div class="card">
+                            <div id="card-title" class="center-align">
+                            <i id="stars" class="material-icons">star star star star star</i> <span>12/16/2016</span>
+                            </div>
+                            <div id="card-content">
+                            <h7><a href="https://www.yelp.com/user_details?userid=iA3O_2OlSU1ibe8H6jHOXQ&utm_campaign=user_name&utm_medium=embedded_review&utm_source=www.yelp.com">Colleen S.</a> <span id="elite"> Elite '16</span></h7>
+                            <p class="yelp-content">"I ordered my lunch through Uber Eats and man. I was stoked! It's been a minute since I last had a true Korean meal. From the looks of the menu it's pretty straight forward and a simple menu. Which I LOVE! Don't get me wrong, I'm all for..."
+                            </p>
+                            </div>
+                            <div class="card-action center-align">
+                                <a href="https://www.yelp.com/biz/bibimbap-king-seattle?hrid=ZZUR6FUB4O7_L2EBLBbW0g&utm_campaign=read_more&utm_medium=embedded_review&utm_source=www.yelp.com">Read more on Yelp</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m12 l4">
+                        <div class="card">
+                            <div id="card-title" class="center-align">
+                            <i id="stars" class="material-icons">star star star star star</i> <span>12/24/2016</span>
+                            </div>
+                            <div id="card-content">
+                            <h7><a href="https://www.yelp.com/user_details?userid=AhAj06qTL0PmsK-38rL12A">Adelie S.</a> <span id="elite"> Elite '16</span></h7>
+                            <p class="yelp-content">"It's especially difficult to find authentic Korean food in the heart of the city, but Bibimbap King certainly does a fantastic job of this with simple, homemade Korean fare that is nutritious, tasty and at a great price! The owners are lov..."
+                            </p>
+                            </div>
+                            <div class="card-action center-align">
+                                <a href="https://www.yelp.com/biz/bibimbap-king-seattle?hrid=NlpyYKVlULQhMiBnoxHGCg&utm_campaign=read_more&utm_medium=embedded_review&utm_source=www.yelp.com">Read more on Yelp</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="yelp-review" class="col s12 m12 l4">
+                        <div class="card">
+                            <div id="card-title" class="center-align">
+                            <i id="stars" class="material-icons">star star star star star</i> <span>2/08/2016</span>
+                            </div>
+                            <div id="card-content">
+                            <h7><a href="https://www.yelp.com/user_details?userid=OGLkivfkMESvh-2Fkg3bjw">Doris W. </a><span id="elite"> Elite '16</span></h7>
+                            <p class="yelp-content">"I work nearby. I was craving Asian food, and this came up on my Yelp radar. So I walked over here. It's inside the Columbia Tower in the food court. The owners are so cute and friendly! They asked if it was my first time trying them, and I..."
+                            </p>
+                            </div>
+                            <div class="card-action center-align">
+                                <a href="https://www.yelp.com/biz/bibimbap-king-seattle?hrid=VpqrbwlcGVQpUlgXvil7vg&utm_campaign=read_more&utm_medium=embedded_review&utm_source=www.yelp.com">Read more on Yelp</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer" class="page-footer grey lighten-3">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5><span>Location</span></h5>
+                <p>Columbia Center Foodcourt 1st floor</p>
+                <p><a id="menuNav" href="https://www.google.com/maps/place/BiBimBap+King/@47.6044647,-122.3328636,17z/data=!3m1!4b1!4m5!3m4!1s0x54906ab0bbfefddd:0x7ad50e27312d6d76!8m2!3d47.6044647!4d-122.3306749" target="_blank">701 5th Ave, Seattle, WA 98104</a></p>
+              </div>
+              <div class="col l4 s12">
+                <h5>Hours</h5>
+                  <p>Monday-Friday: <br>9:00AM-3:00Pm</p>
+              </div>
+              <div class="col l2 s12">
+                <h5>Contact</h5>
+                 <div class= "contacts">
+                    <p><span class="fa fa-phone"></span><a href = "tel:12066336582"> 206-633-6582</a></p>
+                    <a href="https://www.facebook.com/bibimbapking/" target="_blank"><span id="fb" class="fa fa fa-facebook-official fa-2x"></span></a>
+                    <a href="https://www.yelp.com/biz/bibimbap-king-seattle" target="_blank"><span id="yelp" class="fa fa-yelp fa-2x"></span></a>
+              </div>
+            </div>
+          </div>
+    </footer>
+    <!--numeral.js: a number formatting library (http://numeraljs.com/)-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/1.4.5/numeral.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://use.fontawesome.com/7bb7b03398.js"></script>
+    <script src="js/index.js"></script> 
+</body>
+</html>
