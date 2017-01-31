@@ -117,6 +117,10 @@ var SALAD = [
         "id": 22,
         "name": "Asian Chicken Salad",
         "price": 6.49
+    },
+    {
+        "name": "Vegetarian Asian Salad (fried tofu)",
+        "price": 6.49
     }
 ];
 

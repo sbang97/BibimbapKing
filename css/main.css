@@ -189,7 +189,8 @@ footer h5 {
 }
 
 #elite {
-    color: orange;
+    color: #FFF;
+    background-color: red;
     font-size: 14px;
 }
 .yelp-content {
@@ -204,6 +205,22 @@ footer h5 {
 #card-content {
     padding: 7px;
 }
+
+#about-img {
+    width: 100%;
+    height: 400px;
+}
+
+#faq-container {
+    padding-bottom: 50px;
+}
+.faq-long {
+    margin-top: 0px;
+}
+.question {
+    font-weight: 600;
+}
+
 
 @media(max-width: 990px) {
     footer {
@@ -220,12 +237,15 @@ footer h5 {
 }
 
 @media (max-width: 400px) {
-        #fb, #yelp {
+    #fb, #yelp {
         font-size: 25px;
     }
+    .faq-long {
+        display: none;
+    }
 }
-@media (max-width: 430px) {
-    .description{
+@media (min-width: 400px) {
+    .faq-short {
         display: none;
     }
 }
@@ -259,6 +279,12 @@ footer h5 {
     .video {
         height: 250px;
         width: 350px;
+    }
+}
+
+@media (max-width: 350px) {
+    .description{
+        display: none;
     }
 }
 @media (min-width: 285px) {
