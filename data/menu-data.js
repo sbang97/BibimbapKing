@@ -33,6 +33,11 @@ var BIBIMBAP = [
             "id": 7,
             "name": "Mix Any 2",
             "price": 7.99
+        },
+        {
+            "id": 8,
+            "name": "Meal Combo (Any BiBimBap + Drink and Cookie)",
+            "price": 10.00
         }
 ];
 
@@ -83,7 +88,13 @@ var MEAL = [
         "id": 16,
         "name": "Mix Any 2",
         "price": 7.99
+    },
+    {
+        "id": 8,
+        "name": "Meal Combo (Any Meal + Drink and Cookie)",
+        "price": 10.00
     }
+    
 ];
 var BOWL = [
     {
@@ -110,6 +121,11 @@ var BOWL = [
         "id": 21,
         "name": "Mix any 2",
         "price": 5.99
+    },
+    {
+        "id": 8,
+        "name": "Bowl Combo (Any Bowl + Drink and Cookie)",
+        "price": 10.00
     }
 ];
 var SALAD = [
